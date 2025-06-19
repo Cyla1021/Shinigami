@@ -26,7 +26,7 @@ loginForm.addEventListener('submit', function(e) {
     message.style.color = 'green';
     message.textContent = 'Login berhasil!';
     setTimeout(() => {
-      window.location.href = "Home/Home.html"
+      window.location.href = "Home.html"
     }, 1000)
   } else {
     message.style.color = 'red';
